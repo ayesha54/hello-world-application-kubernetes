@@ -1,4 +1,4 @@
-# Exposing an External IP Address to Access an Application in a Cluster in Minikube
+# Hello World Application in a Cluster using Minikube
 
 Minikube (kubernetes deployment locally on linux machine)
 ---------------------------------------------------------
@@ -182,3 +182,13 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 `
 kubectl delete deployment hello-world
 `
+
+
+References:
+https://www.bogotobogo.com/DevOps/DevOps-Kubernetes-1-Running-Kubernetes-Locally-via-Minikube.php
+
+https://hackernoon.com/containerizing-a-node-js-api-using-docker-with-kubernetes-and-minikube-30255fd33ef9
+
+https://auth0.com/blog/load-balancing-nodejs-applications-with-nginx-and-docker/
+
+http://anandmanisankar.com/posts/docker-container-nginx-node-redis-example/
