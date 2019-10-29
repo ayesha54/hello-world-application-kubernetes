@@ -146,7 +146,7 @@ http://192.168.64.3:31518/
 
 ```
 
-In the preceding output, you can see that the service has several endpoints: 10.0.0.6:8080,10.0.1.6:8080,10.0.1.7:8080 + 2 more. These are internal addresses of the pods that are running the Hello World application. To verify these are pod addresses, enter this command:
+In the preceding output, you can see that the service has several endpoints: 172.17.0.10:8080,172.17.0.13:8080,172.17.0.14:8080 + 2 more. These are internal addresses of the pods that are running the Hello World application. To verify these are pod addresses, enter this command:
 
 `
 kubectl get pods --output=wide
