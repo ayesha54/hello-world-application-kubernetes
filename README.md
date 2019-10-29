@@ -56,9 +56,11 @@ Use the Service object to access the running application.
 
 Run a Hello World application in your cluster:
 
-`
-kubectl apply -f https://k8s.io/examples/service/load-balancer-example.yaml
-`
+```
+git clone git@github.com:ayesha54/hello-world-application-kubernetes.git
+cd hello-world-application-kubernetes
+kubectl create -f load-balancer-example.yaml
+```
 
 The preceding command creates a Deployment object and an associated ReplicaSet object. The ReplicaSet has five Pods, each of which runs the Hello World application.
 
